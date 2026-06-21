@@ -1,7 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "ram-s3-demo-21032026"
-    key    = "ramprasath/terraform.tfstate"
-    region = "us-east-2"
+    bucket         = "terraform-backend-statefile-gojo"
+    key            = "terraform.tfstate"
+    region         = "us-east-1"
+    dynamodb_table = "terraform-state-locks"
+    encrypt        = true
   }
 }
