@@ -1,5 +1,6 @@
 variable "cidr_block" {
-  default = "10.0.1.0/16"
+  type    = string
+  #default = "10.0.1.0/16"
 }
 
 variable "az_count" {
