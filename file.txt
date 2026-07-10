@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 line1
 main line
+=======
+feature line
+>>>>>>> 21563aa (add feature line)
