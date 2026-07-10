@@ -1,7 +1,4 @@
 # __generated__ by Terraform
-# Please review these resources and move them into your main configuration files.
-
-# __generated__ by Terraform
 resource "aws_instance" "Unix-vm-imported" {
   ami                                  = "ami-0b6d9d3d33ba97d99"
   associate_public_ip_address          = true
